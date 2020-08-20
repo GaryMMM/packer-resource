@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:latest
 
 RUN apk --no-cache add jq ca-certificates openssh-client sed
 
